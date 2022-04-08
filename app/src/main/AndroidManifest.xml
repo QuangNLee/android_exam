@@ -10,16 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Exam">
         <activity
-            android:name=".activity.FormActivity"
-            android:exported="false" />
+            android:name=".activity.ListViewActivity"
+            android:exported="false"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.FormActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
         </activity>
     </application>
 
